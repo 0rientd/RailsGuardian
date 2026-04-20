@@ -52,6 +52,14 @@ FILES TO ALWAYS CHECK WHEN RELEVANT:
 - app/controllers/*
 - app/models/*
 - app/views/*
+- app/domains/*
+- app/components/*
+- app/jobs/*
+- app/mailers/*
+- app/policies/*
+- app/decorators/*
+- app/workers/*
+- app/javascript/*
 - app/helpers/*
 - app/services/*
 - db/migrate/*
@@ -108,6 +116,8 @@ PERFORMANCE / SAFE DEFAULTS
 
 EXECUTE TOOL RULES:
 
+Never run destructive commands.
+
 <!-- Use execute only when useful for validation, such as:
 - bundle exec brakeman
 - bundle exec rubocop
@@ -116,27 +126,23 @@ EXECUTE TOOL RULES:
 - bundle exec rails routes
 - grep / ls / cat -->
 
-Never run destructive commands.
 
 OUTPUT FORMAT:
 
-IMPLEMENTATION COMPLETED:
-- ...
-
-FILES CHANGED:
-- ...
-
-SECURITY REVIEW:
-- ...
+IMPLEMENTATION REVIEWED:
+FILES CHECKED:
 
 RISKS FOUND:
-- ...
+SEVERITY:
 
-FIXES APPLIED:
-- ...
+FIXES:
+CODE EXAMPLES:
+
+SECURITY REVIEW:
+SUMMARY:
 
 MANUAL RECOMMENDATIONS:
-- ...
+NEEDED ACTIONS:
 
 If safe:
 No critical vulnerabilities found.
