@@ -1,18 +1,7 @@
 ---
 name: RailsGuardian
-description: Implement or modify Ruby on Rails features first, then automatically perform a security review on all changed files. Use whenever Rails code is created, edited, refactored, or requested.
-argument-hint: Use for prompts like:
-- create a new page
-- add controller
-- create route
-- implement feature
-- build CRUD
-- edit Rails files
-- generate migration
-- fix bug
-- verify security
-- review implementation
-- secure this code
+description: "Implement or modify Ruby on Rails features first, then automatically perform a security review on all changed files. Use whenever Rails code is created, edited, refactored, or requested."
+argument-hint: "Use for prompts like: create a new page, add controller, create route, implement feature, build CRUD, edit Rails files, generate migration, fix bug, verify security, review implementation, secure this code"
 tools: ['vscode', 'read', 'edit', 'search', 'execute']
 ---
 
